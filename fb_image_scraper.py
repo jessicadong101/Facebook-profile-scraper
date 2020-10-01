@@ -94,7 +94,7 @@ def make_csv(arr):
 
 def main():
     driver = webdriver.Chrome('/Users/jessicadong/Downloads/chromedriver')  # where chromedriver is stored
-    URLS = get_urls('candidate_fb_links.csv')
+    URLS = get_urls('fb_links.csv')
     image_class = '_2dgj'
     alt = '_1nv3 _11kg _1nv5 profilePicThumb'
     error = []
